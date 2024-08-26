@@ -1,6 +1,6 @@
 pkgbase = mkinitcpio-archiso-encryption
 	pkgdesc = Initcpio scripts used by archiso (encrypt hook support)
-	pkgver = v65
+	pkgver = 65
 	pkgrel = 1
 	url = https://gitlab.archlinux.org/mkinitcpio/mkinitcpio-archiso/-/merge_requests/25
 	arch = any
@@ -16,7 +16,7 @@ pkgbase = mkinitcpio-archiso-encryption
 	optdepends = mkinitcpio-nfs-utils: for PXE over NFS
 	optdepends = nbd: for PXE over NBD
 	optdepends = pv: for status display during copy to RAM
-	provides = mkinitcpio-archiso
+	provides = mkinitcpio-archiso=65
 	conflicts = mkinitcpio-archiso
 	source = mkinitcpio-archiso::git+https://gitlab.archlinux.org/tallero/mkinitcpio-archiso.git#commit=aef089395300e9ec9c4f15d8c7f952af8d481c86
 	sha256sums = SKIP
